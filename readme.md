@@ -23,11 +23,11 @@
 
 ---
 
-## 🎯 Description
+## Description
 
 The **RF Frequency to Wavelength Calculator** plugin provides a professional calculator tool that helps determine the wavelength of electromagnetic waves based on their frequency. This is essential for RF engineers, ham radio operators, and anyone working with wireless communications.
 
-### ✨ Key Features
+### Key Features
 
 - 🔢 **Multi-Unit Support** - Convert frequencies in Hz, kHz, MHz, and GHz to wavelengths in meters
 - ⚡ **Real-time Calculations** - AJAX-powered calculations for smooth user experience
@@ -36,7 +36,7 @@ The **RF Frequency to Wavelength Calculator** plugin provides a professional cal
 - 🎨 **Professional Styling** - Modern design that matches contemporary web standards
 - 🔗 **Easy Integration** - Simple shortcode support for embedding anywhere
 
-### 🚀 Quick Start
+### Quick Start
 
 Simply add the shortcode to any post or page:
 
@@ -49,7 +49,7 @@ Simply add the shortcode to any post or page:
 [rf_calculator title="Your Custom Title"]
 ```
 
-### 🔬 Technical Specifications
+### Technical Specifications
 
 | **Specification** | **Details** |
 |-------------------|-------------|
@@ -110,38 +110,38 @@ Yes, the calculator uses the exact speed of light value (299,792,458 m/s) as def
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Screenshot | Description |
 |------------|-------------|
-| 🖥️ **Interface** | RF calculator showing frequency input and unit selection |
-| 📊 **Results** | Results display with wavelength calculation |
-| 📐 **Formula** | Formula explanation section with wave diagram |
+| <img src="screenshot.png" alt="RF Calculator Interface" width="400"> | RF calculator showing frequency input and unit selection |
+| **Results** | Results display with wavelength calculation |
+| **Formula** | Formula explanation section with wave diagram |
 
 ---
 
 ## 📝 Changelog
 
-### 🆕 Version 1.0.4
-- 🎨 **CSS Update** - Improved styling to make unit selection better contained
-- 🐛 **Bug Fix** - Resolved dropdown overflow issues
+### Version 1.0.4
+- **CSS Update** - Improved styling to make unit selection better contained
+- **Bug Fix** - Resolved dropdown overflow issues
 
 ### Version 1.0.3
-- 👁️ **Visibility** - Enhanced CSS styling to make inputs more visible
-- 💡 **UX Improvement** - Better input field sizing and readability
+- **Visibility** - Enhanced CSS styling to make inputs more visible
+- **UX Improvement** - Better input field sizing and readability
 
 ### Version 1.0.2
-- ✅ **Compatibility** - Updated to work with WordPress 6.7.2
-- 📄 **Documentation** - Added additional license information
-- 🔧 **Maintenance** - Code optimization and cleanup
+- **Compatibility** - Updated to work with WordPress 6.7.2
+- **Documentation** - Added additional license information
+- **Maintenance** - Code optimization and cleanup
 
 ### Version 1.0.0
-- 🎉 **Initial Release**
-- 🔢 Frequency to wavelength conversion
-- 📡 Support for Hz, kHz, MHz, GHz units
-- ⚡ AJAX-powered calculations
-- 📱 Mobile responsive design
-- 📚 Educational content and formula explanation
+- **Initial Release**
+- Frequency to wavelength conversion
+- Support for Hz, kHz, MHz, GHz units
+- AJAX-powered calculations
+- Mobile responsive design
+- Educational content and formula explanation
 
 ---
 
