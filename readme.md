@@ -112,11 +112,13 @@ Yes, the calculator uses the exact speed of light value (299,792,458 m/s) as def
 
 ## Screenshots
 
+<img src="screenshot.png" alt="RF Calculator Interface" width="600">
+
 | Screenshot | Description |
 |------------|-------------|
-| <img src="screenshot.png" alt="RF Calculator Interface" width="400"> | RF calculator showing frequency input and unit selection |
-| **Results** | Results display with wavelength calculation |
-| **Formula** | Formula explanation section with wave diagram |
+| **Interface (Top)** | RF calculator showing frequency input and unit selection |
+| **Results (Middle)** | Results display with wavelength calculation |
+| **Formula (Bottom)** | Formula explanation section with wave diagram |
 
 ---
 
