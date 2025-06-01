@@ -1,4 +1,5 @@
-=== RF Frequency to Wavelength Calculator ===
+### RF Frequency to Wavelength Calculator ###
+
 Contributors: David McHale, John Shedd
 Tags: rf, calculator, frequency, wavelength, radio
 Requires at least: 5.0
@@ -10,7 +11,7 @@ License URI: https://www.mozilla.org/en-US/MPL/2.0/
 
 A professional RF calculator that converts frequencies to wavelengths using the speed of light.
 
-== Description ==
+## Description ##
 
 The RF Frequency to Wavelength Calculator plugin provides a professional calculator tool that helps determine the wavelength of electromagnetic waves based on their frequency. This is essential for RF engineers, ham radio operators, and anyone working with wireless communications.
 
@@ -37,13 +38,13 @@ You can also customize the title:
 * Results displayed with 6 decimal place precision
 * Secure AJAX implementation with nonce verification
 
-== Installation ==
+## Installation ##
 
 1. Upload the plugin files to the `/wp-content/plugins/rf-calculator-plugin` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Use the shortcode `[rf_calculator]` in your posts or pages.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions ##
 
 = How do I add the calculator to my page? =
 
@@ -65,13 +66,13 @@ Wavelength is always calculated and displayed in meters.
 
 Yes, the calculator uses the exact speed of light value (299,792,458 m/s) as defined by international standards.
 
-== Screenshots ==
+## Screenshots ##
 
 1. The RF calculator interface showing frequency input and unit selection
 2. Results display with wavelength calculation
 3. Formula explanation section with wave diagram
 
-== Changelog ==
+## Changelog ##
 
 = 1.0.4 = 
 * Updating CSS styling to make type selection better contained
@@ -91,7 +92,7 @@ Yes, the calculator uses the exact speed of light value (299,792,458 m/s) as def
 * Mobile responsive design
 * Educational content and formula explanation
 
-== Upgrade Notice ==
+## Upgrade Notice ##
 
 = 1.0.0 =
 Initial release of the RF Frequency to Wavelength Calculator plugin.
