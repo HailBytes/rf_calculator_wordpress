@@ -1,97 +1,184 @@
-=== RF Frequency to Wavelength Calculator ===
-Contributors: David McHale, John Shedd
-Tags: rf, calculator, frequency, wavelength, radio
-Requires at least: 5.0
-Tested up to: 6.4
-Requires PHP: 7.4
-Stable tag: 1.0.4
-License: MPLv2 or later
-License URI: https://www.mozilla.org/en-US/MPL/2.0/
+# 📡 RF Frequency to Wavelength Calculator
 
-A professional RF calculator that converts frequencies to wavelengths using the speed of light.
+[![WordPress Plugin](https://img.shields.io/badge/WordPress-Plugin-blue.svg)](https://wordpress.org)
+[![Version](https://img.shields.io/badge/version-1.0.4-green.svg)](https://github.com/yourrepo/rf-calculator)
+[![License](https://img.shields.io/badge/license-MPLv2-orange.svg)](https://www.mozilla.org/en-US/MPL/2.0/)
+[![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net)
 
-== Description ==
+> A professional RF calculator that converts frequencies to wavelengths using the speed of light.
 
-The RF Frequency to Wavelength Calculator plugin provides a professional calculator tool that helps determine the wavelength of electromagnetic waves based on their frequency. This is essential for RF engineers, ham radio operators, and anyone working with wireless communications.
+---
 
-**Features:**
+## 📋 Plugin Information
 
-* Convert frequencies in Hz, kHz, MHz, and GHz to wavelengths in meters
-* Real-time AJAX calculations for smooth user experience
-* Mobile-responsive design
-* Educational content with wave diagram and formula explanation
-* Professional styling that matches modern web standards
-* Shortcode support for easy embedding
+| **Field** | **Value** |
+|-----------|-----------|
+| **Contributors** | David McHale, John Shedd |
+| **Tags** | rf, calculator, frequency, wavelength, radio |
+| **Requires WordPress** | 5.0+ |
+| **Tested up to** | 6.4 |
+| **Requires PHP** | 7.4+ |
+| **Stable tag** | 1.0.4 |
+| **License** | [MPLv2 or later](https://www.mozilla.org/en-US/MPL/2.0/) |
 
-**Usage:**
+---
+
+## 🎯 Description
+
+The **RF Frequency to Wavelength Calculator** plugin provides a professional calculator tool that helps determine the wavelength of electromagnetic waves based on their frequency. This is essential for RF engineers, ham radio operators, and anyone working with wireless communications.
+
+### ✨ Key Features
+
+- 🔢 **Multi-Unit Support** - Convert frequencies in Hz, kHz, MHz, and GHz to wavelengths in meters
+- ⚡ **Real-time Calculations** - AJAX-powered calculations for smooth user experience
+- 📱 **Mobile Responsive** - Optimized design that works on all devices
+- 📚 **Educational Content** - Includes wave diagram and formula explanation
+- 🎨 **Professional Styling** - Modern design that matches contemporary web standards
+- 🔗 **Easy Integration** - Simple shortcode support for embedding anywhere
+
+### 🚀 Quick Start
+
+Simply add the shortcode to any post or page:
+
+```shortcode
+[rf_calculator]
+```
+
+**Custom Title Example:**
+```shortcode
+[rf_calculator title="Your Custom Title"]
+```
+
+### 🔬 Technical Specifications
+
+| **Specification** | **Details** |
+|-------------------|-------------|
+| **Speed of Light** | 299,792,458 m/s (exact value) |
+| **Formula** | λ = c / f (wavelength = speed of light / frequency) |
+| **Precision** | 6 decimal places |
+| **Security** | Secure AJAX with nonce verification |
+| **Performance** | Lightweight with minimal dependencies |
+
+---
+
+## 📦 Installation
+
+### Method 1: WordPress Admin Dashboard
+1. Navigate to **Plugins** → **Add New**
+2. Click **Upload Plugin**
+3. Choose the `rf-calculator-plugin.zip` file
+4. Click **Install Now** and then **Activate**
+
+### Method 2: Manual Installation
+1. Upload plugin files to `/wp-content/plugins/rf-calculator-plugin/`
+2. Activate the plugin through the **Plugins** screen in WordPress
+3. Use the shortcode `[rf_calculator]` in your posts or pages
+
+---
+
+## ❓ Frequently Asked Questions
+
+<details>
+<summary><strong>How do I add the calculator to my page?</strong></summary>
 
 Simply add the shortcode `[rf_calculator]` to any post or page where you want the calculator to appear.
+</details>
 
-You can also customize the title:
-`[rf_calculator title="Your Custom Title"]`
-
-**Technical Details:**
-
-* Uses the exact speed of light value: 299,792,458 m/s
-* Formula: λ = c / f (wavelength = speed of light / frequency)
-* Results displayed with 6 decimal place precision
-* Secure AJAX implementation with nonce verification
-
-== Installation ==
-
-1. Upload the plugin files to the `/wp-content/plugins/rf-calculator-plugin` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Use the shortcode `[rf_calculator]` in your posts or pages.
-
-== Frequently Asked Questions ==
-
-= How do I add the calculator to my page? =
-
-Simply add the shortcode `[rf_calculator]` to any post or page where you want the calculator to appear.
-
-= Can I customize the calculator title? =
+<details>
+<summary><strong>Can I customize the calculator title?</strong></summary>
 
 Yes! Use `[rf_calculator title="Your Custom Title"]` to set a custom title.
+</details>
 
-= What frequency units are supported? =
+<details>
+<summary><strong>What frequency units are supported?</strong></summary>
 
 The calculator supports Hz, kHz, MHz, and GHz input units.
+</details>
 
-= What is the output unit? =
+<details>
+<summary><strong>What is the output unit?</strong></summary>
 
 Wavelength is always calculated and displayed in meters.
+</details>
 
-= Is the calculation accurate? =
+<details>
+<summary><strong>Is the calculation accurate?</strong></summary>
 
 Yes, the calculator uses the exact speed of light value (299,792,458 m/s) as defined by international standards.
+</details>
 
-== Screenshots ==
+---
 
-1. The RF calculator interface showing frequency input and unit selection
-2. Results display with wavelength calculation
-3. Formula explanation section with wave diagram
+## 📸 Screenshots
 
-== Changelog ==
+| Screenshot | Description |
+|------------|-------------|
+| 🖥️ **Interface** | RF calculator showing frequency input and unit selection |
+| 📊 **Results** | Results display with wavelength calculation |
+| 📐 **Formula** | Formula explanation section with wave diagram |
 
-= 1.0.4 = 
-* Updating CSS styling to make type selection better contained
+---
 
-= 1.0.3 = 
-* Updating CSS styling to make inputs more visible
+## 📝 Changelog
 
-= 1.0.2 = 
-* Updated to work with WordPress 6.7.2
-* Added additional license information
+### 🆕 Version 1.0.4
+- 🎨 **CSS Update** - Improved styling to make unit selection better contained
+- 🐛 **Bug Fix** - Resolved dropdown overflow issues
 
-= 1.0.0 =
-* Initial release
-* Frequency to wavelength conversion
-* Support for Hz, kHz, MHz, GHz units
-* AJAX-powered calculations
-* Mobile responsive design
-* Educational content and formula explanation
+### Version 1.0.3
+- 👁️ **Visibility** - Enhanced CSS styling to make inputs more visible
+- 💡 **UX Improvement** - Better input field sizing and readability
 
-== Upgrade Notice ==
+### Version 1.0.2
+- ✅ **Compatibility** - Updated to work with WordPress 6.7.2
+- 📄 **Documentation** - Added additional license information
+- 🔧 **Maintenance** - Code optimization and cleanup
 
-= 1.0.0 =
+### Version 1.0.0
+- 🎉 **Initial Release**
+- 🔢 Frequency to wavelength conversion
+- 📡 Support for Hz, kHz, MHz, GHz units
+- ⚡ AJAX-powered calculations
+- 📱 Mobile responsive design
+- 📚 Educational content and formula explanation
+
+---
+
+## ⚠️ Upgrade Notice
+
+### Version 1.0.0
 Initial release of the RF Frequency to Wavelength Calculator plugin.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please feel free to:
+
+- 🐛 Report bugs
+- 💡 Suggest features
+- 🔧 Submit pull requests
+- 📖 Improve documentation
+
+---
+
+## 📞 Support
+
+Need help? Here are your options:
+
+- 📧 **Email Support** - Contact the plugin authors
+- 📚 **Documentation** - Check the FAQ section above
+- 🐛 **Bug Reports** - Use the WordPress plugin support forum
+
+---
+
+## 📜 License
+
+This plugin is licensed under the **Mozilla Public License v2.0 (MPLv2)**
+
+[![License](https://img.shields.io/badge/license-MPLv2-orange.svg)](https://www.mozilla.org/en-US/MPL/2.0/)
+
+---
+
+*Made with ❤️ by David McHale and John Shedd*
